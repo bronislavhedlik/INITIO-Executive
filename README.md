@@ -19,4 +19,12 @@ Pro nový prázdný runtime použij jako jediný copy-paste vstup celý obsah `4
 
 Runtime Export je standardní součást Executive Workflow. Před předáním další instanci proveď povinnou sekvenci `INITIO MASTER → Executive Sync → Reality Review → Update Executive → Validate → Create Runtime Package → Create ZIP → Next Runtime` podle `60-runtime/EXPORT-PROCEDURE.md`. Výstupem je pouze `INITIO-MASTER-RUNTIME.zip` s přesným allowlistem v `60-runtime/RUNTIME-PACKAGE-STANDARD.md`; před exportem musí projít `60-runtime/RUNTIME-PACKAGE-CHECKLIST.md`.
 
+Lokální Runtime Package vytvoř z kořene repository jedním příkazem:
+
+```sh
+bash scripts/export-runtime.sh
+```
+
+Výstup vznikne jako `runtime/INITIO-MASTER-RUNTIME.zip`.
+
 Pravidla autority jsou v `00-governance/`. Každé tvrzení musí být klasifikováno jako Current Fact, Historical Fact, Locked Decision, Working Decision, Recommendation, Unknown nebo Conflict a musí být dohledatelné přes `50-evidence/EVIDENCE-INDEX.md`.
