@@ -2,58 +2,65 @@
 
 ## Current Phase
 
-Phase 1 — Foundation
+Phase 2 — BH OS Production Readiness Product Review
 
 ## Current Goal
 
-Dokončit INITIO Executive System Foundation a provést kontrolu úplnosti před zahájením další práce.
+Provést produktový review PC-001 — GA4 Connection Layer jako jedinou aktivní prioritu programu BH OS Production Readiness V1.
 
 ## Completed Work
 
-- Načteno sedm povinných inventur.
-- Vytvořena požadovaná Executive struktura, governance, role, stav, registry, knowledge, continuity a evidence index.
-- Oddělena současná autorita, historické LOCKy, recommendation, unknown a conflict.
-- Dokončen mechanický a konzistenční completeness audit: 20 souborů, 12 povinných handoff sekcí, 8 projektů v SoT mapě, jednotná P0 priorita a použitelný runtime start.
+- `Locked Decision` — INITIO Executive System V1 je dokončený a LOCKED.
+- Povinná Executive struktura, governance, stav, registry, continuity a evidence index byly vytvořeny.
+- Foundation byla uzavřena; žádný externí projekt nebyl v rámci aktivace runtime změněn.
 
 ## Current State
 
-`Current Fact` — Foundation je obsahově vytvořena a finální mechanická a konzistenční validace prošla.
+`Current Fact` — Product Brain V3 je `LOCKED / PRODUCTION READY`; Data Sources Program je `COMPLETE / LOCKED`; Website & GEO Intelligence a Regional Market Intelligence jsou `LOCKED`.
+
+`Current Fact` — Production Readiness V1 je hlavní doložený program a PC-001 — GA4 Connection Layer je evidován jako `OPEN`, `P0 CURRENT`, `PRODUCT REVIEW REQUIRED`.
+
+`Working Decision` — Proto je PC-001 jediná aktivní priorita; implementace zatím není autorizována.
 
 ## Locked Decisions
 
-Product Brain V3; Data Sources Program; Website & GEO Intelligence; Regional Market Intelligence; INITIO primary logo symbol v1.0.0. Přesný status a omezení jsou v `20-state/LOCK-REGISTER.md`.
+Executive System V1; Product Brain V3; Data Sources Program; Website & GEO Intelligence; Regional Market Intelligence; INITIO primary logo symbol v1.0.0. Přesný status a omezení doménových LOCKů jsou v `20-state/LOCK-REGISTER.md`.
 
 ## Open Decisions
 
-Žádné nové strategické rozhodnutí není v této fázi autorizováno. Evidované neznámé a budoucí volby jsou v `20-state/OPEN-DECISIONS.md`.
+Produktový review musí určit, zda je PC-001 připraven pro přesný realizační handoff, nebo které doložené produktové gaps tomu brání. Nesmí přitom měnit platné LOCKy ani zaměnit product approval za implementační nebo runtime PASS.
 
 ## Current Priority
 
-Dokončit INITIO Executive System Foundation a provést kontrolu úplnosti před zahájením další práce. `Status: Complete` — nová priorita není určena.
+PC-001 — GA4 Connection Layer Product Review.
 
 ## Exact Next Action
 
-Nezahajuj další práci. Vyžádej si výslovné zadání další fáze; po jeho obdržení nejprve ověř aktuální doménový Source of Truth a teprve potom změň Current Phase, Current Priority a Exact Next Action.
+Otevři projekt `BH_OS` v read-only režimu jako **BH OS Product Director** a proveď jeden produktový review PC-001 — GA4 Connection Layer s cílem rozhodnout jeho připravenost pro následný realizační handoff. Vstupy: `BH_OS_STATE.md`, Product Brain V3, Production Readiness V1, aktuální záznam PC-001 a autoritativní BH OS LOCK register. Zakázané změny: neupravuj `BH_OS`, `bh-os-clean` ani jiný externí projekt; neimplementuj konektor; neměň Product Brain V3, Data Sources Program, Website & GEO Intelligence, Regional Market Intelligence ani jiný dokončený LOCK; nevydávej software/runtime PASS. Očekávaný výstup: jeden product-review decision brief v `INITIO-Executive`, který uvede evidence, gaps, závislosti, doporučení `READY FOR IMPLEMENTATION HANDOFF` nebo `BLOCKED` a právě jeden navazující krok.
 
 ## Files to Read First
 
 1. `10-identity/INITIO-EXECUTIVE-DIRECTOR.md`
-2. `20-state/MASTER-PROJECT-STATE.md`
-3. `20-state/CURRENT-PRIORITIES.md`
-4. `20-state/LOCK-REGISTER.md`
-5. `40-continuity/CURRENT-HANDOFF.md`
+2. `00-governance/EXECUTIVE-SYSTEM-RULES.md`
+3. `00-governance/SOURCE-OF-TRUTH-MAP.md`
+4. `20-state/MASTER-PROJECT-STATE.md`
+5. `20-state/CURRENT-PRIORITIES.md`
+6. `20-state/LOCK-REGISTER.md`
+7. `20-state/OPEN-DECISIONS.md`
+8. `20-state/RISK-REGISTER.md`
+9. `40-continuity/CURRENT-HANDOFF.md`
 
 ## Risks
 
-Historické LOCKy mohou být zaměněny za současnou autoritu; software nemá čerstvou runtime certifikaci; firemní/constitution/brand vrstvy jsou neúplné; zdrojové repositories musí zůstat read-only.
+Historické LOCKy mohou být zaměněny za současnou autoritu; produktové schválení může být zaměněno za implementační nebo runtime PASS; zdrojové projekty musí během product review zůstat read-only.
 
 ## Do Not Reopen
 
-- Nevymýšlej nový firemní ani produktový směr.
-- Neměň doloženou geometrii locked logo symbolu.
-- Nereinterpretuj Product Brain V3 ani jiné platné LOCKy bez nové evidence.
-- Nezaměň chatový COMPLETE LOCK za současnou repository autoritu.
+- INITIO Executive System V1 Foundation.
+- Product Brain V3, Data Sources Program, Website & GEO Intelligence a Regional Market Intelligence.
+- INITIO primary logo symbol v1.0.0.
+- Žádný historický LOCK bez nové autoritativní evidence.
 
 ## Runtime Continuation Instruction
 
-Načti pět souborů v `Files to Read First`, pokračuj přesně od `Exact Next Action`, nic nereinterpretuj bez nové evidence a neotevírej další fázi bez výslovného zadání.
+Načti soubory v `Files to Read First` v uvedeném pořadí a proveď přesně jeden `Exact Next Action`. Nezahajuj paralelní práci a nic neimplementuj.

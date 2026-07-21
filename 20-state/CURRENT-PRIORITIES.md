@@ -2,19 +2,25 @@
 
 ## P0 — Current
 
-`Working Decision` — **Dokončit INITIO Executive System Foundation a provést kontrolu úplnosti před zahájením další práce.**
+`Working Decision` — **Provést produktový review PC-001 — GA4 Connection Layer v programu BH OS Production Readiness V1.**
 
-**Status:** Complete — validováno 2026-07-21. Žádná nová priorita nebyla odvozena.
+**Project:** `BH_OS`
+
+**Role:** BH OS Product Director
+
+**Status:** Active — jediná provozní priorita po dokončení Executive System V1.
 
 Completion criteria:
 
-- všech 20 požadovaných souborů existuje;
-- klasifikace a Source of Truth mapa jsou konzistentní;
-- handoff obsahuje jediný přesný další krok;
-- nový runtime může začít pouze z Executive dokumentů;
-- žádný zdrojový projekt nebyl změněn;
-- nevznikl commit ani push.
+- aktuální PC-001 je ověřen proti Product Brain V3, Production Readiness V1 a platným produktovým LOCKům;
+- vznikne jediný product-review decision brief s doloženým doporučením, gaps, závislostmi a přesným handoffem pro případnou následnou realizaci;
+- nevznikne implementace ani změna v `BH_OS`, `bh-os-clean` nebo jiném externím projektu;
+- žádný dokončený LOCK nebude znovu otevřen.
+
+## Completed
+
+`Locked Decision` — **INITIO Executive System V1 je dokončený a LOCKED.** Jeho Foundation se neotevírá bez nové evidence a řízeného reopening rozhodnutí.
 
 ## Deferred
 
-`Recommendation` — Doménové priority ze zdrojových inventur jsou evidovány v Project State a Risk Registeru, ale nejsou aktivovány, dokud nebude Foundation uzavřena a nová priorita výslovně určena.
+`Working Decision` — Všechny ostatní doménové priority zůstávají odložené, dokud nebude produktový review PC-001 dokončen a předán jediným navazujícím krokem.

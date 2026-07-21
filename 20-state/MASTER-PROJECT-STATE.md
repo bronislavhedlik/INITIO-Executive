@@ -1,17 +1,18 @@
 # Master Project State
 
 **As of:** 2026-07-21  
-**Current Phase:** Phase 1 — Foundation
+**Current Phase:** Phase 2 — BH OS Production Readiness Product Review
 
 ## Executive System
 
-- `Current Fact` — Požadovaná první verze Executive Knowledge a Continuity Layer byla vytvořena a prošla kontrolou úplnosti v `INITIO-Executive`.
-- `Working Decision` — Nový firemní ani produktový směr se neotevírá bez výslovného navazujícího zadání a nové evidence.
+- `Locked Decision` — INITIO Executive System V1 je dokončený a LOCKED; Foundation se bez nové evidence a řízeného reopening rozhodnutí neotevírá.
+- `Current Fact` — Runtime V1 je aktivován s jedinou prioritou a jediným přesným handoffem.
 
 ## BH OS product knowledge
 
 - `Current Fact` — Product Brain V3 je v inventuře `LOCKED / PRODUCTION READY`; Data Sources Program `COMPLETE / LOCKED`; Website & GEO Intelligence a Regional Market Intelligence `LOCKED`.
 - `Current Fact` — Production Readiness V1 je hlavní program a PC-001 GA4 Connection Layer je evidován jako `OPEN`, `P0 CURRENT`, `PRODUCT REVIEW REQUIRED`.
+- `Working Decision` — PC-001 Product Review je jediná aktivní priorita po dokončení Executive System V1; odpovídající specializovaná pracovní role je BH OS Product Director.
 - `Conflict` — Operating Mind je popsán jako `WORKING PRODUCTION BASE` i `IN DEVELOPMENT`.
 - `Unknown` — Aktuální runtime stav produktu nebyl inventurou BH_OS ověřen.
 
