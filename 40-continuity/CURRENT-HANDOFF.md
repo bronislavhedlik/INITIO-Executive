@@ -10,6 +10,8 @@ Synchronizovat Executive System s aktuální produktovou, repository, runtime a 
 
 ## Completed Work
 
+- `Current Fact` — INITIO Master Runtime Lifecycle V1 byl zaveden jako provozní protokol jediné role INITIO MASTER; V3, V4, V5 a další jsou pouze navazující runtime instance.
+- `Current Fact` — `NEW-RUNTIME-START.md` je jediný soběstačný copy-paste vstup a již neobsahuje zastaralou pevnou produktovou prioritu.
 - `Locked Decision` — INITIO Executive System V1 je dokončený a LOCKED.
 - `Locked Decision` — Data Sources Program je `COMPLETE / LOCKED`.
 - `Current Fact` — BH OS Product Experience V1 je evidován jako `GOLD MASTER / APPROVED`.
@@ -17,6 +19,8 @@ Synchronizovat Executive System s aktuální produktovou, repository, runtime a 
 - `Historical Fact` — PC-001 GA4 Connection Layer byl historicky veden jako P0; po Reality Review byl odebrán z Current Priority, protože historický Product Case není automaticky aktuální priorita.
 
 ## Current State
+
+`Current Fact` — Runtime kontinuita se řídí `00-governance/INITIO-MASTER-RUNTIME-LIFECYCLE.md`; nový runtime nepotřebuje historii předchozího chatu a musí ověřit relevantní realitu před potvrzením priority.
 
 `Current Fact` — Google Ads a Google Merchant Center jsou v novější acceptance evidenci `PARTIAL`, se zbývajícími Reality Review položkami; nejsou aktivní prioritou ani doloženým COMPLETE/LOCK stavem.
 
@@ -71,4 +75,4 @@ Historický Product Case může být zaměněn za Current Priority; dílčí tes
 
 ## Runtime Continuation Instruction
 
-Načti soubory v `Files to Read First` v uvedeném pořadí a proveď jediný `Exact Next Action`. Nezahajuj produktovou implementaci ani paralelní prioritu.
+Použij `40-continuity/NEW-RUNTIME-START.md`, načti soubory v `Files to Read First` v uvedeném pořadí, ověř relevantní aktuální realitu a proveď jediný `Exact Next Action`. Nezahajuj produktovou implementaci ani paralelní prioritu. Při ztrátě runtime kvality postupuj podle Runtime Lifecycle a připrav další handoff.
