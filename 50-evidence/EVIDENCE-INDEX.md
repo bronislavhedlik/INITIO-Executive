@@ -9,8 +9,8 @@
 | E-05 | `/Users/reg/Desktop/INITIO-Constitution/INITIO_CONSTITUTION_STATE.md` | Constitution architecture, Product Strategy, INDEX a gaps | Constitution status a autorita |
 | E-06 | `/Users/reg/Desktop/Chaty 1/CHAT_ARCHIVE_PART1_STATE.md` | 57 chatů, historie, role, LOCK tvrzení, preference | Historie/continuity; ne automatická current authority |
 | E-07 | `/Users/reg/Desktop/Chaty 2/CHAT_ARCHIVE_PART2_STATE.md` | 12 chatů, 584 příloh, bez transcriptů | Evidence Library metadata |
+| E-08 | `50-evidence/EXECUTIVE_REALITY_SYNC.md` | GA4 Connection Layer, Google Ads Connection Layer, Google Merchant Center a Production Readiness | Autoritativní synchronizační závěr k 2026-07-21: všechny čtyři oblasti `PARTIAL`; neurčuje další prioritu |
 
 ## Provenance rule
 
-Executive dokumenty jsou syntéza E-01 až E-07, vytvořená 2026-07-21. Pokud se zdroj změní, tvrzení se nepovažuje automaticky za aktuální: musí proběhnout Update Protocol. Inventury nesmějí být použity k rekonstrukci chybějícího přesného kanonického textu.
-
+Executive dokumenty jsou syntéza E-01 až E-08, vytvořená nebo synchronizovaná 2026-07-21. E-08 je přímým zdrojem statusu čtyř synchronizovaných oblastí; nepovyšuje je nad `PARTIAL` a neurčuje jejich prioritu. Pokud se zdroj změní, tvrzení se nepovažuje automaticky za aktuální: musí proběhnout Update Protocol. Inventury nesmějí být použity k rekonstrukci chybějícího přesného kanonického textu.

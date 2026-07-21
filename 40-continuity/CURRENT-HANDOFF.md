@@ -2,11 +2,11 @@
 
 ## Current Phase
 
-Executive Reality Review — Product Reality Synchronization
+Executive Reality Review — Synchronized Product Reality
 
 ## Current Goal
 
-Synchronizovat Executive System s aktuální produktovou, repository, runtime a LOCK evidencí před přiřazením další produktové priority.
+Získat autoritativní rozhodnutí o jediné následující produktové prioritě nad dokončenou synchronizací čtyř `PARTIAL` oblastí.
 
 ## Completed Work
 
@@ -22,13 +22,9 @@ Synchronizovat Executive System s aktuální produktovou, repository, runtime a 
 
 `Current Fact` — Runtime kontinuita se řídí `00-governance/INITIO-MASTER-RUNTIME-LIFECYCLE.md`; nový runtime nepotřebuje historii předchozího chatu a musí ověřit relevantní realitu před potvrzením priority.
 
-`Current Fact` — Google Ads a Google Merchant Center jsou v novější acceptance evidenci `PARTIAL`, se zbývajícími Reality Review položkami; nejsou aktivní prioritou ani doloženým COMPLETE/LOCK stavem.
+`Current Fact` — GA4 Connection Layer, Google Ads Connection Layer, Google Merchant Center a Production Readiness jsou podle `50-evidence/EXECUTIVE_REALITY_SYNC.md` shodně `PARTIAL`; žádná není COMPLETE/LOCKED.
 
-`Unknown` — GA4 Connection Layer má repository implementaci a testy, ale chybí jednotné aktuální completion/runtime/LOCK rozhodnutí.
-
-`Unknown` — Production Readiness má certifikační evidenci `PASS WITH MINOR FINDINGS / READY FOR CTO CERTIFICATION`, nikoli doložené finální CTO/runtime completion.
-
-`Working Decision` — Dokud nejsou tyto stavy synchronizovány, nesmí být přiřazena nová produktová priorita.
+`Working Decision` — Synchronizace sama neurčuje pořadí čtyř `PARTIAL` oblastí, proto bez autoritativního výběru nesmí být přiřazena nová produktová priorita.
 
 ## Locked Decisions
 
@@ -36,19 +32,19 @@ INITIO Executive System V1; Product Brain V3; Data Sources Program; Website & GE
 
 ## Open Decisions
 
-Sjednotit aktuální status GA4, Google Ads, Google Merchant Center a Production Readiness a teprve poté určit, zda existuje jedna doložená další produktová priorita.
+Rozhodnout, která jediná ze čtyř synchronizovaných `PARTIAL` oblastí je následující produktovou prioritou.
 
 ## Current Priority
 
-Executive Reality Review Required
+Executive Reality Review
 
 ## Reason
 
-Executive System requires Product Reality Synchronization before assigning the next product priority.
+Product Reality Synchronization neposkytuje autoritativní pořadí mezi čtyřmi `PARTIAL` oblastmi.
 
 ## Exact Next Action
 
-Proveď read-only Product Reality Synchronization mezi aktuálními artefakty `BH_OS`, pracovním stavem `bh-os-clean`, dostupnou runtime/reality-review evidencí a platnými LOCK rozhodnutími pro GA4 Connection Layer, Google Ads Connection Layer, Google Merchant Center a Production Readiness; výsledkem musí být jedna konsolidovaná status matice v `INITIO-Executive`, která u každé oblasti uvede `COMPLETE/LOCKED`, `PARTIAL`, `OPEN`, `UNKNOWN` nebo `CONFLICT` s přesným zdrojem evidence a nesmí přiřadit novou produktovou prioritu bez jednotného důkazu.
+Získej autoritativní Product Owner/Executive rozhodnutí, která jediná z oblastí GA4 Connection Layer, Google Ads Connection Layer, Google Merchant Center nebo Production Readiness — všechny aktuálně `PARTIAL` — je následující hlavní produktovou prioritou.
 
 ## Files to Read First
 
@@ -61,6 +57,8 @@ Proveď read-only Product Reality Synchronization mezi aktuálními artefakty `B
 7. `20-state/OPEN-DECISIONS.md`
 8. `20-state/RISK-REGISTER.md`
 9. `40-continuity/CURRENT-HANDOFF.md`
+10. `50-evidence/EXECUTIVE_REALITY_SYNC.md`
+11. `50-evidence/EVIDENCE-INDEX.md`
 
 ## Risks
 

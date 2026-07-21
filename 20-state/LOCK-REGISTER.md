@@ -16,4 +16,4 @@
 
 LOCKy bez doloženého scope, evidence nebo reopening condition jsou explicitně neúplné; tato tabulka jim nepřidává novou autoritu.
 
-GA4 Connection Layer, Google Ads Connection Layer, Google Merchant Center a Production Readiness nejsou tímto review nově označeny jako LOCKED. Dílčí implementační nebo testovací PASS není reopening ani completion/LOCK rozhodnutí.
+GA4 Connection Layer, Google Ads Connection Layer, Google Merchant Center a Production Readiness jsou podle `50-evidence/EXECUTIVE_REALITY_SYNC.md` shodně `PARTIAL`; žádná z nich není LOCKED. Dílčí implementační nebo testovací PASS není reopening ani completion/LOCK rozhodnutí.

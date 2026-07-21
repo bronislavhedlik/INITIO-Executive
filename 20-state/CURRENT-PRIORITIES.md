@@ -2,15 +2,15 @@
 
 ## P0 — Current
 
-`Working Decision` — **Executive Reality Review Required**
+`Working Decision` — **Executive Reality Review**
 
-**Reason:** Executive System requires Product Reality Synchronization before assigning the next product priority.
+**Reason:** Reality Synchronization potvrdila GA4 Connection Layer, Google Ads Connection Layer, Google Merchant Center a Production Readiness shodně jako `PARTIAL`, ale neurčila autoritativní pořadí pro jednu následující produktovou prioritu.
 
 **Status:** Active — jediná aktuální priorita; nejde o novou produktovou prioritu.
 
 Completion criteria:
 
-- aktuální produktové statusy jsou sjednoceny mezi `BH_OS`, `bh-os-clean`, runtime evidencí a platnými LOCK rozhodnutími;
+- aktuální produktové statusy čtyř synchronizovaných oblastí zůstávají zachovány jako `PARTIAL`;
 - historické Product Cases nejsou používány jako automatická Current Priority;
 - jedna další produktová priorita je určena pouze tehdy, pokud ji dokládá aktuální autoritativní evidence;
 - žádný dokončený LOCK není znovu otevřen.
@@ -28,4 +28,4 @@ Completion criteria:
 
 ## Deferred
 
-`Unknown` — Další produktová priorita nebude přiřazena před dokončením Product Reality Synchronization.
+`Open` — Další produktová priorita nebude přiřazena bez autoritativního rozhodnutí, která jediná ze čtyř `PARTIAL` oblastí následuje.
