@@ -2,10 +2,12 @@
 
 | Scope | Classification | Current authority assessment | Reopen condition |
 | --- | --- | --- | --- |
+| INITIO Executive System V1 | `Locked Decision` | Foundation dokončena a LOCKED; Reality Recalibration mění odvozený state, nikoli Foundation LOCK | Nová evidence + výslovné řízené reopening rozhodnutí. |
 | Product Brain V3 | `Locked Decision` | BH_OS inventory: LOCKED / PRODUCTION READY | Nová evidence přes Product Brain governance. |
 | Data Sources Program | `Locked Decision` | BH_OS inventory: COMPLETE / LOCKED | Není v inventuře doložena; vyžaduje doplnění. |
 | Website & GEO Intelligence | `Locked Decision` | BH_OS inventory: LOCKED | Není v inventuře doložena; vyžaduje doplnění. |
 | Regional Market Intelligence | `Locked Decision` | BH_OS inventory: LOCKED | Není v inventuře doložena; vyžaduje doplnění. |
+| BH OS Product Experience V1 | `Current Fact` | `GOLD MASTER / APPROVED`; formální LOCK není v ověřené evidenci doložen | Není LOCK; případný LOCK vyžaduje autoritativní rozhodnutí a metadata. |
 | INITIO primary logo symbol v1.0.0 | `Locked Decision` | Approved SVG + production notes dle brand inventory | Řízená nová verze s review; produkční testy mohou doplnit dosud neLOCKED minimum sizes. |
 | Product Strategy Constitution | `Current Fact` | Complete a závazná, ale formální LOCK není doložen | Formální governance evidence; schválený text neměnit běžnou údržbou. |
 | INITIO MASTER — Executive Director | `Historical Fact` | Chat uvádí COMPLETE LOCK; současná repository autorita jej nepotvrzuje | Nová autoritativní governance evidence. |
@@ -14,3 +16,4 @@
 
 LOCKy bez doloženého scope, evidence nebo reopening condition jsou explicitně neúplné; tato tabulka jim nepřidává novou autoritu.
 
+GA4 Connection Layer, Google Ads Connection Layer, Google Merchant Center a Production Readiness nejsou tímto review nově označeny jako LOCKED. Dílčí implementační nebo testovací PASS není reopening ani completion/LOCK rozhodnutí.

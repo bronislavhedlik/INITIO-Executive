@@ -1,18 +1,19 @@
 # Master Project State
 
 **As of:** 2026-07-21  
-**Current Phase:** Phase 2 — BH OS Production Readiness Product Review
+**Current Phase:** Executive Reality Review — Product Reality Synchronization
 
 ## Executive System
 
 - `Locked Decision` — INITIO Executive System V1 je dokončený a LOCKED; Foundation se bez nové evidence a řízeného reopening rozhodnutí neotevírá.
-- `Current Fact` — Runtime V1 je aktivován s jedinou prioritou a jediným přesným handoffem.
+- `Current Fact` — Runtime V1 je aktivní; jedinou aktuální prioritou je Executive Reality Review Required, nikoli produktová realizace.
 
 ## BH OS product knowledge
 
-- `Current Fact` — Product Brain V3 je v inventuře `LOCKED / PRODUCTION READY`; Data Sources Program `COMPLETE / LOCKED`; Website & GEO Intelligence a Regional Market Intelligence `LOCKED`.
-- `Current Fact` — Production Readiness V1 je hlavní program a PC-001 GA4 Connection Layer je evidován jako `OPEN`, `P0 CURRENT`, `PRODUCT REVIEW REQUIRED`.
-- `Working Decision` — PC-001 Product Review je jediná aktivní priorita po dokončení Executive System V1; odpovídající specializovaná pracovní role je BH OS Product Director.
+- `Locked Decision` — Product Brain V3 je `LOCKED / PRODUCTION READY`; Data Sources Program `COMPLETE / LOCKED`; Website & GEO Intelligence a Regional Market Intelligence `LOCKED`.
+- `Current Fact` — BH OS Product Experience V1 je v aktuálním produktovém workspace evidován jako `GOLD MASTER / APPROVED`.
+- `Historical Fact` — Produktový workspace stále vede PC-001 GA4 Connection Layer jako `OPEN / P0 CURRENT / PRODUCT REVIEW`, ale tento Product Case není po Reality Review autoritou pro Current Priority.
+- `Unknown` — Aktuální completion status GA4 Connection Layer není doložen jednotným completion/LOCK rozhodnutím; repository obsahuje implementaci a testy, což samo o sobě není runtime completion.
 - `Conflict` — Operating Mind je popsán jako `WORKING PRODUCTION BASE` i `IN DEVELOPMENT`.
 - `Unknown` — Aktuální runtime stav produktu nebyl inventurou BH_OS ověřen.
 
@@ -21,7 +22,9 @@
 - `Current Fact` — Next.js 16.2.9 / React 19 / TypeScript / Prisma 7 / SQLite aplikace s rozsáhlou implementací klientského workflow, connectorů, auditu, strategie, návrhů, reportingu a intelligence.
 - `Current Fact` — Centrální workflow je pouze částečně souvislé; Internal Delivery a recurring reporting jsou největší chybějící články.
 - `Current Fact` — Checkout je rozsáhle dirty. Audit 2026-07-21 neprovedl runtime, live-provider ani deployment test.
-- `Current Fact` — Google Ads má nejsilnější evidence path, ale explicitní certifikace říká Not Production Ready. Další konektory nejsou kompletně live-certifikované.
+- `Current Fact` — Novější acceptance evidence klasifikuje Google Ads a Google Merchant Center jako `PARTIAL`; otevřené provider Reality Review položky a DB hygiene finding brání globálnímu production PASS.
+- `Conflict` — Starší Google Ads certifikace uvádí `Not Production Ready`, zatímco novější implementační reporty uvádějí dílčí `PASS`; žádný z těchto dílčích výsledků sám nedokládá complete/locked capability.
+- `Unknown` — Production Readiness nemá v ověřené aktuální evidenci finální runtime completion: certifikační package uvádí `PASS WITH MINOR FINDINGS / READY FOR CTO CERTIFICATION`, ne dokončenou CTO certifikaci.
 
 ## INITIO company
 

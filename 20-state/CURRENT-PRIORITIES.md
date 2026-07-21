@@ -2,25 +2,30 @@
 
 ## P0 — Current
 
-`Working Decision` — **Provést produktový review PC-001 — GA4 Connection Layer v programu BH OS Production Readiness V1.**
+`Working Decision` — **Executive Reality Review Required**
 
-**Project:** `BH_OS`
+**Reason:** Executive System requires Product Reality Synchronization before assigning the next product priority.
 
-**Role:** BH OS Product Director
-
-**Status:** Active — jediná provozní priorita po dokončení Executive System V1.
+**Status:** Active — jediná aktuální priorita; nejde o novou produktovou prioritu.
 
 Completion criteria:
 
-- aktuální PC-001 je ověřen proti Product Brain V3, Production Readiness V1 a platným produktovým LOCKům;
-- vznikne jediný product-review decision brief s doloženým doporučením, gaps, závislostmi a přesným handoffem pro případnou následnou realizaci;
-- nevznikne implementace ani změna v `BH_OS`, `bh-os-clean` nebo jiném externím projektu;
-- žádný dokončený LOCK nebude znovu otevřen.
+- aktuální produktové statusy jsou sjednoceny mezi `BH_OS`, `bh-os-clean`, runtime evidencí a platnými LOCK rozhodnutími;
+- historické Product Cases nejsou používány jako automatická Current Priority;
+- jedna další produktová priorita je určena pouze tehdy, pokud ji dokládá aktuální autoritativní evidence;
+- žádný dokončený LOCK není znovu otevřen.
 
 ## Completed
 
-`Locked Decision` — **INITIO Executive System V1 je dokončený a LOCKED.** Jeho Foundation se neotevírá bez nové evidence a řízeného reopening rozhodnutí.
+- `Locked Decision` — INITIO Executive System V1 je dokončený a LOCKED.
+- `Locked Decision` — Data Sources Program je `COMPLETE / LOCKED`.
+- `Current Fact` — BH OS Product Experience V1 je v aktuálním `BH_OS/06_Workspace/CURRENT_STATE.md` evidován jako `GOLD MASTER / APPROVED`.
+- `Locked Decision` — Website & GEO Intelligence a Regional Market Intelligence zůstávají LOCKED.
+
+## Historical Priority Record
+
+`Historical Fact` — PC-001 — GA4 Connection Layer byl v `BH_OS/06_Workspace/OPEN_PRODUCT_CASES.md` veden jako `OPEN / P0 CURRENT / PRODUCT REVIEW`. Reality Review nepotvrdil, že tento historický Product Case je aktuální prioritou, proto byl z Current Priority odebrán; informace zůstává zachována zde a v Master Project State.
 
 ## Deferred
 
-`Working Decision` — Všechny ostatní doménové priority zůstávají odložené, dokud nebude produktový review PC-001 dokončen a předán jediným navazujícím krokem.
+`Unknown` — Další produktová priorita nebude přiřazena před dokončením Product Reality Synchronization.
