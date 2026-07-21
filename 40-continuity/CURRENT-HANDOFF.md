@@ -8,6 +8,8 @@ Executive Reality Review — Synchronized Product Reality
 
 Získat autoritativní rozhodnutí o jediné následující produktové prioritě nad dokončenou synchronizací čtyř `PARTIAL` oblastí.
 
+Oficiální produktový stav a prioritu určuje výhradně `20-state/EXECUTIVE-DECISION-REGISTER.md`. Reality Review a repository poskytují evidenci, nikoli Executive Decision.
+
 ## Completed Work
 
 - `Current Fact` — INITIO Master Runtime Lifecycle V1 byl zaveden jako provozní protokol jediné role INITIO MASTER; V3, V4, V5 a další jsou pouze navazující runtime instance.
@@ -48,17 +50,20 @@ Získej autoritativní Product Owner/Executive rozhodnutí, která jediná z obl
 
 ## Files to Read First
 
-1. `10-identity/INITIO-EXECUTIVE-DIRECTOR.md`
-2. `00-governance/EXECUTIVE-SYSTEM-RULES.md`
-3. `00-governance/SOURCE-OF-TRUTH-MAP.md`
-4. `20-state/MASTER-PROJECT-STATE.md`
-5. `20-state/CURRENT-PRIORITIES.md`
-6. `20-state/LOCK-REGISTER.md`
-7. `20-state/OPEN-DECISIONS.md`
-8. `20-state/RISK-REGISTER.md`
-9. `40-continuity/CURRENT-HANDOFF.md`
-10. `50-evidence/EXECUTIVE_REALITY_SYNC.md`
-11. `50-evidence/EVIDENCE-INDEX.md`
+1. `20-state/EXECUTIVE-DECISION-REGISTER.md`
+2. `50-evidence/EXECUTIVE_REALITY_SYNC.md`
+3. Relevantní Repository Reality
+4. Relevantní Historical Records
+5. `10-identity/INITIO-EXECUTIVE-DIRECTOR.md`
+6. `00-governance/EXECUTIVE-SYSTEM-RULES.md`
+7. `00-governance/SOURCE-OF-TRUTH-MAP.md`
+8. `20-state/MASTER-PROJECT-STATE.md`
+9. `20-state/CURRENT-PRIORITIES.md`
+10. `20-state/LOCK-REGISTER.md`
+11. `20-state/OPEN-DECISIONS.md`
+12. `20-state/RISK-REGISTER.md`
+13. `40-continuity/CURRENT-HANDOFF.md`
+14. `50-evidence/EVIDENCE-INDEX.md`
 
 ## Risks
 
@@ -73,4 +78,4 @@ Historický Product Case může být zaměněn za Current Priority; dílčí tes
 
 ## Runtime Continuation Instruction
 
-Použij `40-continuity/NEW-RUNTIME-START.md`, načti soubory v `Files to Read First` v uvedeném pořadí, ověř relevantní aktuální realitu a proveď jediný `Exact Next Action`. Nezahajuj produktovou implementaci ani paralelní prioritu. Při ztrátě runtime kvality postupuj podle Runtime Lifecycle a připrav další handoff.
+Použij `40-continuity/NEW-RUNTIME-START.md`, načti soubory v `Files to Read First` v uvedeném pořadí a proveď jediný `Exact Next Action`. Oficiální stav vždy převezmi nejprve z Executive Decision Register; Reality Review, repository a historii používej následně jako evidenci v tomto pořadí. Nezahajuj produktovou implementaci ani paralelní prioritu. Při ztrátě runtime kvality postupuj podle Runtime Lifecycle a připrav další handoff.
